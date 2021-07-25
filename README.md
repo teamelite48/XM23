@@ -1,4 +1,20 @@
-# Xtremachen 23
+# About
+
+Robot code for the 2021 FIRST Robotics Competition - Infinite Recharge
+
+# Getting Started
+
+1. **Complete** [Workstation Setup](https://github.com/teamelite48/workstation-setup)
+1. **Clone** this repository to your local machine
+1. **Open** XM23 project folder in 2021 WPILIb VS Code
+1. **Click** "No, Don't ask again" button when prompted to import project into 2021
+1. **Click** "Yes" button when asked to import Java project
+1. **Click** on the WPI icon in the corner to open the WPI Command Pallet
+1. **Select** Build Robot Code
+1. **Select** cpp
+1. **Observe** build was successful
+
+# Notes
 
 * Most of the code is contained in XM23.cpp/.h
 * Look in the XM23() constructor for hardware defines (speed controllers, sensors, etc.) and initializing variables and default hardware states (setting motor speeds to off, etc.).
