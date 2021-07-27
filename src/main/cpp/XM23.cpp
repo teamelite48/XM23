@@ -573,9 +573,9 @@ XM23::XM23()
 	
 */
 
-	shootertop = 			new TalonFX(1);															// CAN 01
-	shooterbottom = 		new TalonFX(2);															// CAN 02   
-	climber = 				new TalonFX(3);															// CAN 03
+	shootertop = 			new WPI_TalonFX(1);															// CAN 01
+	shooterbottom = 		new WPI_TalonFX(2);															// CAN 02   
+	climber = 				new WPI_TalonFX(3);															// CAN 03
 	ballfeed = 				new rev::CANSparkMax(10, rev::CANSparkMax::MotorType::kBrushless);		// CAN 10
 	//r2d2 =				new rev::CANSparkMax(11, rev::CANSparkMax::MotorType::kBrushless);		// CAN 11
 
@@ -685,8 +685,8 @@ XM23::XM23()
 
 */
 
-	//gyro = new frc::ADXRS450_Gyro(); 
-	gyro = new frc::ADIS16470_IMU(); 
+	gyro = new frc::ADXRS450_Gyro();
+	// gyro = new frc::ADIS16470_IMU();
 
 	#define AUTOMATIONDIRECTPRESENTTHRESH   1.07	//This is the middle voltage between low and high sensor triggers - AD sensors
 

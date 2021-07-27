@@ -284,9 +284,9 @@ private:
 
 	//CAN motors - NEW FOR 2020
 
-	TalonFX *shootertop;
-	TalonFX *shooterbottom;
-	TalonFX *climber;	
+	WPI_TalonFX *shootertop;
+	WPI_TalonFX *shooterbottom;
+	WPI_TalonFX *climber;	
 	rev::CANSparkMax *ballfeed; 	
 	//rev::CANSparkMax *r2d2; 	
 
@@ -334,8 +334,8 @@ private:
 
 	// Robot sensors
 
-	frc::ADIS16470_IMU *gyro;
-	//frc::ADXRS450_Gyro *gyro;
+	frc::ADXRS450_Gyro *gyro;
+	// frc::ADIS16470_IMU *gyro;
 
 	
 	//frc::AnalogGyro *gyro;
